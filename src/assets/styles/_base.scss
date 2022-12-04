@@ -1,0 +1,165 @@
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+* {
+	font-family: 'Poppins';
+	user-select: none;
+	outline: none;
+}
+
+body {
+	@include margin(0);
+	@include padding(0);
+	color: #000000;
+	background-color: #f1f2f4;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 4px -0.5px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+	cursor: pointer;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	@include padding(0);
+}
+
+ul {
+	list-style: none;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	@include margin(0);
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+textarea {
+	resize: vertical;
+
+	&::-webkit-scrollbar {
+		width: 5px;
+		border-radius: 5px;
+		box-shadow: inset 0 0 4px -0.5px rgba(0, 0, 0, 0.2);
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		border-radius: 5px;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+button::-moz-focus-inner {
+	border: 0;
+}
+
+a:hover,
+a:active,
+a:focus {
+	outline: 0;
+}
+
+input {
+	-webkit-appearance: none;
+	user-select: text;
+}
+
+pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	font-size: 0.75rem;
+	line-height: 20px;
+}
+
+iframe {
+	border: none;
+}
+
+h1 {
+	font-size: 3rem;
+
+	&.size--small {
+		font-size: 2.125rem;
+	}
+}
+
+h2 {
+	font-size: 2.4375rem;
+
+	&.size--small {
+		font-size: 2.0625rem;
+	}
+}
+
+h3 {
+	font-size: 2.0625rem;
+
+	&.size--small {
+		font-size: 1.75rem;
+	}
+}
+
+h4 {
+	font-size: 2.0625rem;
+
+	&.size--small {
+		font-size: 1.4375rem;
+	}
+}
+
+h5 {
+	font-size: 1.4375rem;
+
+	&.size--small {
+		font-size: 1.1875rem;
+	}
+}
+
+h6 {
+	font-size: 1.1875rem;
+
+	&.size--small {
+		font-size: 1rem;
+	}
+}
+
+p {
+	font-size: 0.875rem;
+	line-height: 17px;
+}
+
+video {
+	background-color: rgba(0, 0, 0, 0.5);
+}
