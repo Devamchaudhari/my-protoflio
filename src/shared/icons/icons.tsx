@@ -13,7 +13,7 @@ export const RightArrow: React.FC<Props> = (props) => (
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g clip-path="url(#clip0_4_1809)">
+        <g clipPath="url(#clip0_4_1809)">
             <path
                 d="M7.15834 13.825L10.975 10L7.15834 6.175L8.33334 5L13.3333 10L8.33334 15L7.15834 13.825Z"
                 fill="black"

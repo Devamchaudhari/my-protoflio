@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfileImage from '../../assets/images/Profile.png';
-import { RightArrow } from '../../shared/icons/icons';
+import ProfileImage from '../../../assets/images/Profile.png';
+import { RightArrow } from '../../../shared/icons/icons';
 import '../header.scss';
 const Header = () => {
     return (
