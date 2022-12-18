@@ -18,7 +18,7 @@ const Social = () => {
       </div>
       <div className="intro-content">
         <p className="intro-title mt--30">Social</p>
-        <div className="d-flex flex-wrap mt--30 gap-15">
+        <div className="d-flex flex-wrap mt--30 gap-15 social-icons-container">
           <div className="mr--20">
             <img src={stakeOverflowImage} alt="javascript" />
           </div>

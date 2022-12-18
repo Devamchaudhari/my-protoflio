@@ -20,7 +20,7 @@ const Skills = () => {
       </div>
       <div className="intro-content">
         <p className="intro-title mt--30">Skills</p>
-        <div className="d-flex flex-wrap mt--30 gap-15">
+        <div className="d-flex flex-wrap mt--30 gap-15 skill-icon-container">
           <div className="mr--20">
             <img src={jsImage} alt="javascript" />
           </div>
