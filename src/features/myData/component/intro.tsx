@@ -14,10 +14,10 @@ const Intro = () => {
             Hi, I'm Devam, I'm Front-End Developer.
           </p>
           <p className="intro-description font-size--20">
-            I'm currently working at Scaletech Solutions P.V.T L.T.D.
+            I'm currently working at Scaletech Solutions
           </p>
           <p className="intro-description font-size--20">
-            I ❤️ to Code. I'm based in Gujarat, Ahmedabad.
+            I ❤️ to Code. I'm based in Ahmedabad, Gujarat.
           </p>
         </div>
       </div>
